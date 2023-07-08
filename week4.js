@@ -53,4 +53,21 @@ function numbReturn(n1, n2) {
     return n1;
   }
 }
-console.log(numbReturn(2, 2));
+console.log(numbReturn(3, 2));
+
+// Loop
+function forLoop() {
+  for (let i = 0; i < 100; i = i + 1) {
+    console.log(i * i);
+  }
+}
+forLoop();
+
+function oddLoop() {
+  for (let i = 0; i < 100; i = i + 1) {
+    if (i % 2 != 0) {
+      console.log(i);
+    }
+  }
+}
+oddLoop();
