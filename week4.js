@@ -26,3 +26,31 @@ function positiveChecker(number1, number2) {
 console.log(positiveChecker(1, -2));
 
 // Question 3
+function tempChecker(n1, n2, n3, n4, n5, n6, n7) {
+  if (
+    n1 > 90 ||
+    n2 > 90 ||
+    n3 > 90 ||
+    n4 > 90 ||
+    n5 > 90 ||
+    n6 > 90 ||
+    n7 > 90
+  ) {
+    return "it's too hot";
+  } else {
+    return "it's pretty cool";
+  }
+}
+console.log(tempChecker(1, 2, 3, 4, 5, 6, 100));
+
+// Question 4
+function numbReturn(n1, n2) {
+  if (n1 > n2) {
+    return n1;
+  } else if (n2 > n1) {
+    return n2;
+  } else {
+    return n1;
+  }
+}
+console.log(numbReturn(2, 2));
